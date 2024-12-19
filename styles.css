@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto Slab', serif, "Vazirmatn", serif; /* Apply Roboto Slab */
+  font-size: 20px; /* Make text bigger */
+  text-align: center;
+  background-color: #2d3436; /* Default background color */
+  color: white; /* Change text color to white */
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+}
+
+button {
+  font-family:  'Roboto Slab', serif, "Vazirmatn", serif;
+  font-size: 20px; /* Make text bigger */
+  margin: 10px; /* Apply space around the button */
+  padding: 10px 10px; /* Apply padding to button */
+  width: auto; /* Ensure the width adjusts based on content */
+  border: none;
+  background-color: #6c5ce7;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in button width calculation */
+}
+
+button:hover {
+  background-color: #a29bfe;
+}
+
+img.start-image {
+  width: 100%;
+  max-width: 200px;
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 30px; /* Make result text bigger */
+  font-weight: bold; /* Make result text bold */
+}
+
+#countdown {
+  font-size: 22px; /* Make countdown text bigger */
+  margin-top: 20px;
+  font-weight: bold; /* Make countdown text bold */
+}
